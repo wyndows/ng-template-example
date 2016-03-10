@@ -7,22 +7,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 		<!-- set base for relative links - to enable pretty URLs. -->
-		<base href="/~rlewis37/angular-template/public_html/">
+		<base href="/~rlewis37/ng-template-example/public_html/">
 
-		<!-- Latest compiled and minified CSS -->
+		<!-- Latest compiled and minified Bootstrap CSS -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-		<!-- Optional theme -->
+		<!-- Optional Bootstrap theme -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!--FontAweseom-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 		<!-- My Custom CSS rlewis37@cnm.edu -->
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
-		<!--Angular JS-->
+		<!--Angular JS Libraries-->
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.min.js"></script>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.2.1/ui-bootstrap-tpls.min.js"></script>
 
-		<!--Angular application files-->
+		<!--Angular app files-->
 		<script type="text/javascript" src="angular/app.js"></script>
 
 		<title>Meow Template!</title>
@@ -59,8 +64,83 @@
 				<div class="container">
 
 					<div class="col-xs-12">
-						Treats
-					</div>
+						<div class="well">
+							<h2>Meow <3 Treats!</h2>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<a href="#" class="thumbnail">
+								<img class="img-responsive" src="http://placehold.it/350x350" alt="image text">
+							</a>
+						</div>
+
+					</div><!--/col-xs-12-->
 
 				</div>
 			</main>

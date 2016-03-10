@@ -42,6 +42,10 @@ body { width: 100%;}
 	padding-bottom: 4rem;
 }
 
+.p-b-2 {
+	padding-bottom: 2rem;
+}
+
 .m-b-2 {
 	margin-bottom: 2rem;
 }
@@ -77,4 +81,8 @@ header {
 footer {
 	background-color: #333;
 	color: #fff;
+}
+
+.well h2 {
+	margin-top: 10px;
 }
