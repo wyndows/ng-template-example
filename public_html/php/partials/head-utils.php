@@ -45,8 +45,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!--Angular app files (order: app, services, directives, controllers)-->
 		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/app.js"></script>
 		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/route-config.js"></script>
+		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/main-controller.js"></script>
 
 		<title>Meow Template!</title>
 	</head>
-	<body class="sfooter">
+	<body class="sfooter" ng-controller="mainController">
 		<div class="sfooter-content">
