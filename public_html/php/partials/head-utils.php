@@ -48,6 +48,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/main-controller.js"></script>
 		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/about-controller.js"></script>
 		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/signup-controller.js"></script>
+		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/toys-controller.js"></script>
+		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/treats-controller.js"></script>
 
 		<title>Meow Template!</title>
 	</head>
