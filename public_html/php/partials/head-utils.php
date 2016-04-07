@@ -20,7 +20,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-		<!-- set base for relative links - to enable pretty URLs. -->
+		<!-- set base for relative links - to enable pretty URLs -->
 		<base href="<?php echo dirname($_SERVER["PHP_SELF"]) . "/";?>">
 
 		<!-- Latest compiled and minified Bootstrap CSS -->

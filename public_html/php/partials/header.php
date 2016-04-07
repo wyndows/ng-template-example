@@ -8,15 +8,15 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/~rlewis37/ng-template-example/public_html/">MeowApp</a>
+				<a class="navbar-brand" href="index">MeowApp</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/~rlewis37/ng-template-example/public_html/about">About</a></li>
-					<li><a href="/~rlewis37/ng-template-example/public_html/sign-up">Sign Up</a></li>
-					<li><a href="/~rlewis37/ng-template-example/public_html/toys">Toys</a></li>
-					<li><a href="/~rlewis37/ng-template-example/public_html/treats">Kitty Treats</a></li>
+					<li><a href="about">About</a></li>
+					<li><a href="sign-up">Sign Up</a></li>
+					<li><a href="toys">Toys</a></li>
+					<li><a href="treats">Kitty Treats</a></li>
 					<li><a href="https://senator-arlo.bowtied.io/" target="_blank">Feel the Fuzzy</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
