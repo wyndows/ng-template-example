@@ -1,25 +1,24 @@
-<?php
-/*grab current directory*/
-$CURRENT_DIR = __DIR__;
+<!-- insert <head> tag -->
+<?php require_once("php/partials/head-utils.php");?>
 
-/*set page title here*/
-$PAGE_TITLE = "Angular Template";
+<body class="sfooter" ng-controller="mainController">
+	<div class="sfooter-content">
 
-/*load head-utils.php - edit path as needed*/
-require_once("php/partials/head-utils.php");
-?>
+		<!-- insert header -->
+		<?php require_once("php/partials/header.php");?>
 
-			<?php require_once("php/partials/header.php");?>
+		<main class="p-y-4">
+			<div class="container">
 
-			<main class="p-y-4">
-				<div class="container">
+				<!-- Angular directive -->
+				<div ng-view></div>
 
-					<div ng-view></div>
+			</div>
+		</main>
 
-				</div>
-			</main>
+	</div><!--/.sfooter-content-->
 
-		</div><!--/.sfooter-content-->
-		<?php require_once ("php/partials/footer.php");?>
-	</body>
+	<!-- insert footer -->
+	<?php require_once ("php/partials/footer.php");?>
+</body>
 </html>

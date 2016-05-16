@@ -1,17 +1,3 @@
-<?php
-/**
- * Get the relative path.
- * @see https://raw.githubusercontent.com/kingscreations/farm-to-you/master/php/lib/_header.php FarmToYou Header
- **/
-
-// include the appropriate number of dirname() functions
-// on line 8 to correctly resolve your directory's path
-require_once(dirname(dirname(__DIR__)) . "/root-path.php");
-$CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
-$ROOT_DEPTH = substr_count($ROOT_PATH, "/");
-$DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
-$PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
-?>
 <!DOCTYPE html>
 <html lang="en" ng-app="NgMeow">
 	<head>
@@ -33,7 +19,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 		<!-- My Custom CSS rlewis37@cnm.edu -->
-		<link rel="stylesheet" href="<?php echo $PREFIX;?>css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
 		<!--Angular JS Libraries-->
 		<?php $ANGULAR_VERSION = "1.5.0";?>
@@ -43,15 +29,14 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.2.1/ui-bootstrap-tpls.min.js"></script>
 
 		<!--Angular app files (order: app, services, directives, controllers)-->
-		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/app.js"></script>
-		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/route-config.js"></script>
-		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/main-controller.js"></script>
-		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/about-controller.js"></script>
-		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/signup-controller.js"></script>
-		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/toys-controller.js"></script>
-		<script type="text/javascript" src="<?php echo $PREFIX;?>angular/controllers/treats-controller.js"></script>
+		<script type="text/javascript" src="angular/app.js"></script>
+		<script type="text/javascript" src="angular/route-config.js"></script>
+		<script type="text/javascript" src="angular/controllers/main-controller.js"></script>
+		<script type="text/javascript" src="angular/controllers/about-controller.js"></script>
+		<script type="text/javascript" src="angular/controllers/signup-controller.js"></script>
+		<script type="text/javascript" src="angular/controllers/toys-controller.js"></script>
+		<script type="text/javascript" src="angular/controllers/treats-controller.js"></script>
 
 		<title>Meow Template!</title>
 	</head>
-	<body class="sfooter" ng-controller="mainController">
-		<div class="sfooter-content">
+	
